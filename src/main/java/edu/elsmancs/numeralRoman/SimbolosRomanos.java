@@ -11,7 +11,6 @@ public enum SimbolosRomanos {
         this.valorDecimal = valorDecimal;
     }
 
-
     public int getValorDecimal() {
         return this.valorDecimal;
     }
