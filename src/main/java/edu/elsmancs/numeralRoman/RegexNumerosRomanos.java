@@ -20,6 +20,9 @@ public class RegexNumerosRomanos {
         return this.regexMapa.get(key);
     }
 
+    public Map<String, String> getRegex() {
+        return this.regexMapa;
+    }
     public Collection<String> getValues() {
         return this.regexMapa.values();
     }
