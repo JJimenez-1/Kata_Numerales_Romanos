@@ -5,6 +5,7 @@ public class NumerosRomanos {
     private String numeroLetra = null;
     private int numeroDecimal = 0;
 
+    private RegexNumerosRomanos regexDiccionario = new RegexNumerosRomanos();
     public NumerosRomanos() {
     };
 
@@ -26,5 +27,9 @@ public class NumerosRomanos {
 
     public void setNumeroDecimal(int numeroDecimal) {
         this.numeroDecimal = numeroDecimal;
+    }
+
+    public void setRegexDiccionario(RegexNumerosRomanos regex) {
+        this.regexDiccionario = regex;
     }
 }
