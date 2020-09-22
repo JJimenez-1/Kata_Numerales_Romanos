@@ -1,5 +1,6 @@
 package edu.elsmancs.numeralRoman;
 
+import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,6 +18,13 @@ public class RegexNumerosRomanos {
 
     public String getRegexValue(String key) {
         return this.regexMapa.get(key);
+    }
+
+    public Collection<String> getValues() {
+        return this.regexMapa.values();
+    }
+    public long longitud() {
+        return this.regexMapa.size();
     }
 
 }
