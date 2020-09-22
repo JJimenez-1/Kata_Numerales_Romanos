@@ -5,6 +5,12 @@ public class NumerosRomanos {
     private String numeroLetra = null;
     private int numeroDecimal = 0;
 
+    public NumerosRomanos() {
+    };
+
+    public NumerosRomanos(String numeroLetra) {
+        this.numeroLetra = numeroLetra;
+    }
 
     public String getNumeroLetra() {
         return numeroLetra;
